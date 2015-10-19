@@ -6,7 +6,7 @@ import java.time.LocalDate;
  * プロジェクト。
  * 
  * @author simei
- *
+ * @since 1.0
  */
 public final class Project {
 
