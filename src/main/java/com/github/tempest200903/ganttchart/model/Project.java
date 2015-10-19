@@ -13,26 +13,26 @@ public final class Project {
 	/**
 	 * プロジェクト名前。
 	 */
-	private String projectName;
+	private String name;
 
 	/**
 	 * プロジェクト開始日。
 	 */
-	private LocalDate startDate;
+	private long startDate;
 
-	public String getProjectName() {
-		return projectName;
+	public String getName() {
+		return name;
 	}
 
-	public LocalDate getStartDate() {
+	public long getStartDate() {
 		return startDate;
 	}
 
-	public void setProjectName(String projectName) {
-		this.projectName = projectName;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public void setStartDate(LocalDate startDate) {
+	public void setStartDate(long startDate) {
 		this.startDate = startDate;
 	}
 
